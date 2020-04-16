@@ -1,0 +1,22 @@
+.profile {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(auto, 3);
+  grid-gap: 1em;
+}
+
+.profile__img {
+  padding: 2em;
+  justify-self: center;
+}
+
+.profile__info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+  justify-items: center;
+}
+
+img {
+  border-radius: 50%;
+}

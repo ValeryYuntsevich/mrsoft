@@ -1,0 +1,19 @@
+<div class="profile">
+    <div class="profile__img">
+        <img [src]="src" alt="cat">
+    </div>
+    <div class="profile__info">
+        <div>
+            <span> <strong>Name: </strong></span>
+            <span>{{ data.name }}</span>
+        </div>
+        <div>
+            <span> <strong>Short info: </strong></span>
+            <span>{{ data.shortInfo }}</span>
+        </div>
+    </div>
+    <div>
+        <h4>Biography:</h4>
+        <span>{{ bio }}</span>
+    </div>
+</div>

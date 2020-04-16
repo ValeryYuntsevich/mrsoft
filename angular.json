@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "src/custom-theme.scss",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "mrsoft"
+    }
+  },
+  "defaultProject": "mrsoft",
+  "cli": {
+    "analytics": "a8cccdc6-193e-40c8-aa4a-48f9a039d536"
+  }
 }

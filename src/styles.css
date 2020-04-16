@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  box-sizing: border-box;
+  font-size: calc(0.5em + 1vw);
+  --darkgray-bg: #343a40;
+  --white-color: #ffffff;
+  --light-white-color: rgba(255,255,255,0.6);
+  }
+    
+*, *::before,*::after { box-sizing: inherit }
+  
+body { 
+  margin: 0; 
+  height: 100vh;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 64px auto calc(100% - 128px) 64px;
+  height: 100%;
+}
+
+.mat-toolbar-single-row {
+  justify-content: center;
+  background: var(--darkgray-bg); 
+  color: var(--light-white-color);
+}
+
+a {
+  text-decoration:none;
+  color: var(--white-color);
+}
+
+table {
+  width: 100%;
+}

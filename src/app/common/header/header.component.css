@@ -1,0 +1,17 @@
+.header {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 1em;
+  align-items: center;
+  height: inherit;
+  width: 100%;
+}
+
+.header-img {
+  padding: 0.5em;
+  height: inherit;
+}
+
+img {
+  height: 100%;
+}

@@ -1,0 +1,13 @@
+.user-list {
+  display: grid;
+  height: 100%;
+}
+
+.user-list__filter {
+  padding-top: 1.5em;
+  justify-self: center;
+}
+
+.user-list__table {
+  overflow-y: scroll;
+}
